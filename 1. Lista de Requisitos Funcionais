@@ -1,0 +1,16 @@
+# 1. Lista de Requisitos Funcionais
+
+O sistema de controle de manutenção de veículos da TransLog Express deve atender aos seguintes requisitos funcionais:
+
+| ID | Requisito Funcional | Descrição |
+| :--- | :--- | :--- |
+| RF01 | **Autenticação de Usuário** | O sistema deve permitir que usuários (mecânicos, motoristas, administradores) se autentiquem com login e senha válidos. |
+| RF02 | **Cadastro de Veículos** | O sistema deve permitir o cadastro, edição e exclusão de veículos, incluindo informações como placa, modelo, ano, quilometragem atual e quilometragem para próxima revisão. |
+| RF03 | **Registro de Manutenção Preventiva** | O sistema deve permitir o registro de manutenções preventivas realizadas, associando-as a um veículo, tipo de serviço, data, custo e quilometragem no momento da manutenção. |
+| RF04 | **Registro de Manutenção Corretiva** | O sistema deve permitir o registro de manutenções corretivas realizadas, associando-as a um veículo, descrição do problema, data, custo e quilometragem no momento da manutenção. |
+| RF05 | **Controle de Quilometragem** | O sistema deve permitir a atualização da quilometragem atual do veículo, seja por meio de um registro manual ou por integração (se aplicável). |
+| RF06 | **Alerta de Próxima Revisão** | O sistema deve gerar alertas visuais e/ou por e-mail quando um veículo estiver a uma margem pré-definida (ex: 1.000 km) da quilometragem da próxima revisão. |
+| RF07 | **Geração de Relatório de Histórico** | O sistema deve permitir a geração de relatórios detalhados do histórico de manutenções (preventivas e corretivas) por veículo, período ou tipo de serviço. |
+| RF08 | **Geração de Relatório de Custos** | O sistema deve permitir a geração de relatórios que totalizem os custos de manutenção por veículo, período ou tipo de manutenção. |
+| RF09 | **Gestão de Usuários (Admin)** | O sistema deve permitir que o administrador cadastre, edite e gerencie os níveis de acesso (perfis) dos usuários. |
+| RF10 | **Agendamento de Manutenção** | O sistema deve permitir o agendamento de futuras manutenções, com data prevista e veículo associado. |
